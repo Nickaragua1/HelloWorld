@@ -34,6 +34,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Show text">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="makeButtonAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="ou1-P1-ps9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,6 +49,10 @@
                             <constraint firstItem="mKd-eu-ejP" firstAttribute="centerX" secondItem="pi2-mO-NTU" secondAttribute="centerX" id="zYx-nc-BUK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLabel" destination="mKd-eu-ejP" id="nhg-gG-Dm1"/>
+                        <outlet property="toggleButton" destination="pi2-mO-NTU" id="sri-A2-YS7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
